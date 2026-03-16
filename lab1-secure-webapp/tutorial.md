@@ -6,4 +6,4 @@ Deploy a web app and secure it using Microsoft Entra ID authentication.
 ## Web App Login
 ## Web App Login
 
-![Login Page](screenshots/login-page.png)
+![Login Page](webapp-running.png)
