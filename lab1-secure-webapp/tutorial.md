@@ -10,3 +10,8 @@ Deploy a web app and secure it using Microsoft Entra ID authentication.
 ## Authentication-config Settings Page
 
 ![Login Page](screenshots/authentication-config.png)
+
+## App-registration Settings Page
+
+![Login Page](screenshots/app-registration.png)
+
