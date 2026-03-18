@@ -108,3 +108,36 @@ Only authenticated users can access the application.
 • OAuth login using Microsoft Entra ID  
 • Application registration  
 • Securing applications with centralized identity providers
+----
+
+
+## Identity and Access Control Lab
+
+To simulate a real IAM scenario, multiple users and roles were created in Microsoft Entra ID.
+
+### Users
+- app-admin (administrator)
+- app-user (standard user)
+- app-guest (unauthorized user)
+
+### Groups
+- WebApp-Admins
+- WebApp-Users
+
+Users were assigned to groups to represent different privilege levels.
+
+### Authentication
+
+The Azure Web App was configured to use Microsoft Entra ID authentication based on OAuth 2.0.
+
+### Token-Based Access
+
+After login, Microsoft Entra ID issues an OAuth token containing user identity and group membership.
+
+The application can use this token to determine user access levels.
+
+### Test Results
+
+- app-user → Access granted
+- app-admin → Access granted
+- app-guest → No assigned role (restricted scenario)
