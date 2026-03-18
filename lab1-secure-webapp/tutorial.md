@@ -174,7 +174,7 @@ The authentication flow was tested using multiple users:
 
 ### Login Results
 
-![Login Success](screenshots/login-success.png)
+![Login Success](screenshots/webapp-running.png)
 
 ---
 
