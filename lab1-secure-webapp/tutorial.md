@@ -92,9 +92,6 @@ Settings → Authentication
 2. You will be redirected to Microsoft login  
 3. Sign in  
 
-### Login Page
-
-![Login Page](screenshots/login-page.png)
 
 ### Web App Protected by Entra ID
 
