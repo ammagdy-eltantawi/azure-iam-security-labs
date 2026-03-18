@@ -120,15 +120,23 @@ To simulate a real IAM scenario, multiple users and roles were created in Micros
 - app-user (standard user)
 - app-guest (unauthorized user)
 
+- ![Users](screenshots/users-created.png)
+
 ### Groups
 - WebApp-Admins
 - WebApp-Users
 
+![Users](screenshots/users-created.png)
+
 Users were assigned to groups to represent different privilege levels.
+
+![Groups](screenshots/groups-list.png)
 
 ### Authentication
 
 The Azure Web App was configured to use Microsoft Entra ID authentication based on OAuth 2.0.
+
+![Token Groups Claim](screenshots/token-groups-claim.png)
 
 ### Token-Based Access
 
